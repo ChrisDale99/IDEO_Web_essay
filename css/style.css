@@ -110,10 +110,10 @@ header {
     background-color: black;
     min-height: 100px;
     font-size: 100%;
-    line-height: 2em;
+    line-height: 1em;
     text-align: center;
-    padding-left: 500px;
-    padding-right: 500px;
+    padding-left: 400px;
+    padding-right: 400px;
 }
 
 .biblio h2 {
