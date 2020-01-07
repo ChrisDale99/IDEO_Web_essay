@@ -54,6 +54,7 @@ nav a:hover {
     color: black;
     margin-bottom: 1em;
     font-family: 'Bebas Neue', cursive;
+    font-style: normal;
 }
 
 
@@ -64,18 +65,23 @@ body {
     margin: auto;
     color: black;
     font-family: 'Bebas Neue', cursive;
+    font-style: normal;
+    
 }
 
 header h1 {
     margin-top: 0.7em;
     font-size: 100px;
     color: white;
+    font-style: normal;
+   
 }
 
 header h2 {
-    margin-top: 0.5em;
+    margin-top: 1em;
     font-size: 60px;
     color: white;
+    font-style: normal;
 
 }
 
@@ -84,6 +90,8 @@ header h3 {
     font-size: 20px;
     text-decoration: underline;
     color: white;
+    font-style: normal;
+    
 }
 
 header p {
@@ -144,6 +152,7 @@ h3 {
     color: white;
     text-align: center;
     color: white;
+
 }
 
 h2 {
@@ -152,14 +161,18 @@ h2 {
     text-align: center;
     text-decoration: underline;
     color: black;
+    padding-top: 95px;
+    
 }
+
+
 
 
 
 p {
     font-family: 'Open Sans', sans-serif;
     color: black;
-    
+
 
 }
 
@@ -182,8 +195,8 @@ h3 {
 
 .container blockquote {
     font-size: 2em;
-    hanging-punctuation: first;
-    text-indent: -0.45em;
+    padding-left: 50px;
+    padding-right: 50px;
     color: grey;
 
 }
@@ -194,6 +207,8 @@ cite {
     color: black;
     line-height: 1.5em;
     margin-top: 3em;
+    padding-left: 50px;
+    padding-right: 50px;
 
 }
 
@@ -304,10 +319,10 @@ img {
     grid-template-columns: 1fr 1fr;
     grid-gap: 1em;
     margin: 0 2em;
-    
+
 }
 
-.ul li{
+.ul li {
     color: black;
     font-family: 'Bebas Neue', cursive;
     font-size: 30px;
